@@ -10,7 +10,6 @@
 #include <fcntl.h>
 
 
-// uisngs
 using namespace std;
 using rgb_matrix :: RGBMatrix;
 using rgb_matrix :: Canvas;
