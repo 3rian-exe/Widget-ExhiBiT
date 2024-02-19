@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'Times New Roman' serif;
+}
+
+/* home page stuff */
+article{
+    display: block;
+    float: left;
+    height: 800px;
+    background: rgb(128, 128, 128);
+    width: 80%;
+    color: rgb(34, 34, 35);
+    font: normal small-caps 1em/3em Quicksand;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(0, 113, 206);
+    border-radius: 10px;
+    float: left;
+}
+
+
+
+aside#usefulLinks{
+    display: block;
+    height: 800px;
+    text-align: left;
+    padding-left: 20px;
+    float: right;
+    list-style-position: inside;
+    background-color: rgb(128, 128, 128);
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+aside#usefulLinks ul li:first-of-type{
+    list-style-image: url(teachingTechLogo.jpg);
+}
+
+aside#usefulLinks ul li:nth-of-type(2){
+    list-style-image: url(simplify3dLogo.jpg);
+}
+
+aside#usefulLinks ul li:nth-of-type(3){
+    list-style-image: url(thingiverseLogo.png);
+}
+
+aside#usefulLinks ul li:nth-of-type(4){
+    list-style-image: url(all3dpLogo.png);
+}
+
+aside#usefulLinks ul li:last-of-type{
+    list-style-image: url(tinkercadLogo.png);
+}
